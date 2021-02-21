@@ -1,0 +1,6 @@
+framework module Pods_saltside {
+  umbrella header "Pods-saltside-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_saltsideTests {
+  umbrella header "Pods-saltsideTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

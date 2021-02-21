@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D2929D7B7293A432F127993 /* Pods_saltsideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656F8638D79F6AB524B424D8 /* Pods_saltsideTests.framework */; };
+		D022F12DDAEA826F0B74E32C /* Pods_saltside_saltsideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC478ECE5F93CE29077A3 /* Pods_saltside_saltsideUITests.framework */; };
 		E0F9D9E025E2B0670056CFC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9D9DF25E2B0670056CFC5 /* AppDelegate.swift */; };
 		E0F9D9E225E2B0670056CFC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9D9E125E2B0670056CFC5 /* SceneDelegate.swift */; };
 		E0F9D9E725E2B0670056CFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F9D9E525E2B0670056CFC5 /* Main.storyboard */; };
@@ -28,6 +30,7 @@
 		E0F9DA3425E2C1F40056CFC5 /* ColourExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3325E2C1F40056CFC5 /* ColourExtentions.swift */; };
 		E0F9DA3625E2C22D0056CFC5 /* SSAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3525E2C22D0056CFC5 /* SSAlertVC.swift */; };
 		E0F9DA3825E2C2760056CFC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3725E2C2760056CFC5 /* Constants.swift */; };
+		EC6B2E89207BB658DBCC55CA /* Pods_saltside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C80299D9461E18E0344B1F5 /* Pods_saltside.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C80299D9461E18E0344B1F5 /* Pods_saltside.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_saltside.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656F8638D79F6AB524B424D8 /* Pods_saltsideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_saltsideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9B915BB7DA7F3F28305420 /* Pods-saltside.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saltside.release.xcconfig"; path = "Target Support Files/Pods-saltside/Pods-saltside.release.xcconfig"; sourceTree = "<group>"; };
+		725F2AED41720983D615A1C4 /* Pods-saltsideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saltsideTests.release.xcconfig"; path = "Target Support Files/Pods-saltsideTests/Pods-saltsideTests.release.xcconfig"; sourceTree = "<group>"; };
+		7FAB49C6E6AACA6D2B73AA5E /* Pods-saltside-saltsideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saltside-saltsideUITests.debug.xcconfig"; path = "Target Support Files/Pods-saltside-saltsideUITests/Pods-saltside-saltsideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5BD538BC30D99D48B6BADE6 /* Pods-saltside.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saltside.debug.xcconfig"; path = "Target Support Files/Pods-saltside/Pods-saltside.debug.xcconfig"; sourceTree = "<group>"; };
+		C7CEC478ECE5F93CE29077A3 /* Pods_saltside_saltsideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_saltside_saltsideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4AFAB0AB4CB64BA44EF673 /* Pods-saltsideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saltsideTests.debug.xcconfig"; path = "Target Support Files/Pods-saltsideTests/Pods-saltsideTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0F9D9DC25E2B0670056CFC5 /* saltside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saltside.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F9D9DF25E2B0670056CFC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F9D9E125E2B0670056CFC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +86,7 @@
 		E0F9DA3325E2C1F40056CFC5 /* ColourExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourExtentions.swift; sourceTree = "<group>"; };
 		E0F9DA3525E2C22D0056CFC5 /* SSAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAlertVC.swift; sourceTree = "<group>"; };
 		E0F9DA3725E2C2760056CFC5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E15D11A23CD059A68B0CDF26 /* Pods-saltside-saltsideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saltside-saltsideUITests.release.xcconfig"; path = "Target Support Files/Pods-saltside-saltsideUITests/Pods-saltside-saltsideUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6B2E89207BB658DBCC55CA /* Pods_saltside.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2929D7B7293A432F127993 /* Pods_saltsideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +110,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D022F12DDAEA826F0B74E32C /* Pods_saltside_saltsideUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07AF871D0267C429D59D6C8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD538BC30D99D48B6BADE6 /* Pods-saltside.debug.xcconfig */,
+				6C9B915BB7DA7F3F28305420 /* Pods-saltside.release.xcconfig */,
+				7FAB49C6E6AACA6D2B73AA5E /* Pods-saltside-saltsideUITests.debug.xcconfig */,
+				E15D11A23CD059A68B0CDF26 /* Pods-saltside-saltsideUITests.release.xcconfig */,
+				DF4AFAB0AB4CB64BA44EF673 /* Pods-saltsideTests.debug.xcconfig */,
+				725F2AED41720983D615A1C4 /* Pods-saltsideTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A686A84DDC33C269E5A390F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C80299D9461E18E0344B1F5 /* Pods_saltside.framework */,
+				C7CEC478ECE5F93CE29077A3 /* Pods_saltside_saltsideUITests.framework */,
+				656F8638D79F6AB524B424D8 /* Pods_saltsideTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0F9D9D325E2B0670056CFC5 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +148,8 @@
 				E0F9D9F825E2B06B0056CFC5 /* saltsideTests */,
 				E0F9DA0325E2B06B0056CFC5 /* saltsideUITests */,
 				E0F9D9DD25E2B0670056CFC5 /* Products */,
+				07AF871D0267C429D59D6C8C /* Pods */,
+				A686A84DDC33C269E5A390F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F9DA0925E2B06B0056CFC5 /* Build configuration list for PBXNativeTarget "saltside" */;
 			buildPhases = (
+				BC9CF2C6093F7909F417DB68 /* [CP] Check Pods Manifest.lock */,
 				E0F9D9D825E2B0670056CFC5 /* Sources */,
 				E0F9D9D925E2B0670056CFC5 /* Frameworks */,
 				E0F9D9DA25E2B0670056CFC5 /* Resources */,
+				D90B2254DC45236684024AD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F9DA0C25E2B06B0056CFC5 /* Build configuration list for PBXNativeTarget "saltsideTests" */;
 			buildPhases = (
+				152C53534ACDE99C91B9941E /* [CP] Check Pods Manifest.lock */,
 				E0F9D9F125E2B06B0056CFC5 /* Sources */,
 				E0F9D9F225E2B06B0056CFC5 /* Frameworks */,
 				E0F9D9F325E2B06B0056CFC5 /* Resources */,
@@ -273,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F9DA0F25E2B06B0056CFC5 /* Build configuration list for PBXNativeTarget "saltsideUITests" */;
 			buildPhases = (
+				04FF489B5314FE93F49FE132 /* [CP] Check Pods Manifest.lock */,
 				E0F9D9FC25E2B06B0056CFC5 /* Sources */,
 				E0F9D9FD25E2B06B0056CFC5 /* Frameworks */,
 				E0F9D9FE25E2B06B0056CFC5 /* Resources */,
+				BE62049BE687AF65E9413C0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,6 +402,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04FF489B5314FE93F49FE132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-saltside-saltsideUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		152C53534ACDE99C91B9941E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-saltsideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC9CF2C6093F7909F417DB68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-saltside-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE62049BE687AF65E9413C0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saltside-saltsideUITests/Pods-saltside-saltsideUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saltside-saltsideUITests/Pods-saltside-saltsideUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-saltside-saltsideUITests/Pods-saltside-saltsideUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90B2254DC45236684024AD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saltside/Pods-saltside-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saltside/Pods-saltside-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-saltside/Pods-saltside-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0F9D9D825E2B0670056CFC5 /* Sources */ = {
@@ -548,6 +697,7 @@
 		};
 		E0F9DA0A25E2B06B0056CFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BD538BC30D99D48B6BADE6 /* Pods-saltside.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -566,6 +716,7 @@
 		};
 		E0F9DA0B25E2B06B0056CFC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9B915BB7DA7F3F28305420 /* Pods-saltside.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +735,7 @@
 		};
 		E0F9DA0D25E2B06B0056CFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4AFAB0AB4CB64BA44EF673 /* Pods-saltsideTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -606,6 +758,7 @@
 		};
 		E0F9DA0E25E2B06B0056CFC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725F2AED41720983D615A1C4 /* Pods-saltsideTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -628,6 +781,7 @@
 		};
 		E0F9DA1025E2B06B0056CFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAB49C6E6AACA6D2B73AA5E /* Pods-saltside-saltsideUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -648,6 +802,7 @@
 		};
 		E0F9DA1125E2B06B0056CFC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15D11A23CD059A68B0CDF26 /* Pods-saltside-saltsideUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

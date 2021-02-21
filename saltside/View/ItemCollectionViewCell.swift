@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ItemCollectionViewCell: UICollectionViewCell {
     
@@ -17,6 +18,11 @@ class ItemCollectionViewCell: UICollectionViewCell {
             }
             if let discription = itemDetails?.description{
                 discriptionLabel.text = discription
+            }
+            if let imageUrl = itemDetails?.image{
+                //Background image download
+                print(imageUrl)
+                imgView.sd_setImage(with: URL(string:imageUrl), placeholderImage: Images.placeholderImage)
             }
         }
     }

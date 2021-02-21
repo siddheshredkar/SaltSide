@@ -20,7 +20,7 @@ enum Colours{
 
 enum Images {
     static let zuryLogo                 = UIImage(named: "zury-logo")
-    static let placeholderImage         = UIImage(named: "avatar-placeholder")
+    static let placeholderImage         = UIImage(named: "placeholder-image")
 }
 
 
