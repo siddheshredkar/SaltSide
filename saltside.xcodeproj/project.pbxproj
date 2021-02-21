@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,7 @@
 		E0F9DA3425E2C1F40056CFC5 /* ColourExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3325E2C1F40056CFC5 /* ColourExtentions.swift */; };
 		E0F9DA3625E2C22D0056CFC5 /* SSAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3525E2C22D0056CFC5 /* SSAlertVC.swift */; };
 		E0F9DA3825E2C2760056CFC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3725E2C2760056CFC5 /* Constants.swift */; };
+		E0F9DA3A25E2CCC70056CFC5 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3925E2CCC70056CFC5 /* ItemDetailViewModel.swift */; };
 		EC6B2E89207BB658DBCC55CA /* Pods_saltside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C80299D9461E18E0344B1F5 /* Pods_saltside.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,7 @@
 		E0F9DA3325E2C1F40056CFC5 /* ColourExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourExtentions.swift; sourceTree = "<group>"; };
 		E0F9DA3525E2C22D0056CFC5 /* SSAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAlertVC.swift; sourceTree = "<group>"; };
 		E0F9DA3725E2C2760056CFC5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0F9DA3925E2CCC70056CFC5 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
 		E15D11A23CD059A68B0CDF26 /* Pods-saltside-saltsideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saltside-saltsideUITests.release.xcconfig"; path = "Target Support Files/Pods-saltside-saltsideUITests/Pods-saltside-saltsideUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +129,6 @@
 				DF4AFAB0AB4CB64BA44EF673 /* Pods-saltsideTests.debug.xcconfig */,
 				725F2AED41720983D615A1C4 /* Pods-saltsideTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -268,6 +269,7 @@
 		E0F9DA1A25E2B58F0056CFC5 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0F9DA3925E2CCC70056CFC5 /* ItemDetailViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -523,6 +525,7 @@
 				E0F9DA2C25E2BF980056CFC5 /* SSErrors.swift in Sources */,
 				E0F9DA3425E2C1F40056CFC5 /* ColourExtentions.swift in Sources */,
 				E0F9DA2A25E2BF220056CFC5 /* ItemDetail.swift in Sources */,
+				E0F9DA3A25E2CCC70056CFC5 /* ItemDetailViewModel.swift in Sources */,
 				E0F9DA2825E2BE1B0056CFC5 /* NetworkManager.swift in Sources */,
 				E0F9DA2625E2BA980056CFC5 /* UIView+Ext.swift in Sources */,
 				E0F9DA2425E2B9130056CFC5 /* CardView.swift in Sources */,

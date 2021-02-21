@@ -10,7 +10,7 @@ import UIKit
 
 class ListViewController: UIViewController {
  
-    var itemList = ItemDetailList()
+    var itemList = ItemDetailViewModelList()
     
     let padding: CGFloat = 12
     
@@ -106,7 +106,8 @@ class ListViewController: UIViewController {
             
             switch result {
             case .success(let resp):
-                self.itemList = resp
+                
+                self.itemList = resp.map({return ItemDetailViewModel(item: $0)}) 
                 dump(resp)
                 DispatchQueue.main.async {
                     //reaload view

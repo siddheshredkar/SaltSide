@@ -11,15 +11,15 @@ import SDWebImage
 
 class ItemCollectionViewCell: UICollectionViewCell {
     
-    var itemDetails:ItemDetail?{
+    var itemDetails:ItemDetailViewModel?{
         didSet{
             if let title = itemDetails?.title{
                 titleLabel.text = title
             }
-            if let discription = itemDetails?.description{
+            if let discription = itemDetails?.detailTextString{
                 discriptionLabel.text = discription
             }
-            if let imageUrl = itemDetails?.image{
+            if let imageUrl = itemDetails?.imageUrl{
                 //Background image download
                 print(imageUrl)
                 imgView.sd_setImage(with: URL(string:imageUrl), placeholderImage: Images.placeholderImage)
@@ -37,7 +37,7 @@ class ItemCollectionViewCell: UICollectionViewCell {
     let hStackView:UIStackView = {
         let stack = UIStackView()
         stack.axis          = .horizontal
-        stack.distribution  = .equalSpacing
+        stack.distribution  = .fill
         stack.spacing = 12
         return stack
     }()
@@ -45,7 +45,7 @@ class ItemCollectionViewCell: UICollectionViewCell {
     let labelStackView:UIStackView = {
         let stack = UIStackView()
         stack.axis          = .vertical
-        stack.distribution  = .equalSpacing
+        stack.distribution  = .fill
         stack.spacing = 2
         return stack
     }()
@@ -75,7 +75,6 @@ class ItemCollectionViewCell: UICollectionViewCell {
         lbl.textColor = .black
         lbl.textAlignment = .left
         lbl.numberOfLines = 2
-        lbl.text = "terminations map autos sons utilizations"
         return lbl
     }()
     
@@ -84,8 +83,7 @@ class ItemCollectionViewCell: UICollectionViewCell {
         lbl.font = UIFont.boldSystemFont(ofSize: 15)
         lbl.textColor = .darkGray
         lbl.textAlignment = .left
-        lbl.numberOfLines = 0
-        lbl.text = "sterilizer span ticks continuity hubs procurement vision eggs backups cries gap iron conferences torpedo government catchers restaurant destroyers attribute counsel echo overcurrent classes trip environments forecastle giants conspiracies suppression things rope plans bow blots rescuers incline"
+        lbl.numberOfLines = 4
         return lbl
     }()
     
