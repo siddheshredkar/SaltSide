@@ -19,6 +19,15 @@
 		E0F9DA2225E2B8B50056CFC5 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2125E2B8B50056CFC5 /* ItemCollectionViewCell.swift */; };
 		E0F9DA2425E2B9130056CFC5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2325E2B9130056CFC5 /* CardView.swift */; };
 		E0F9DA2625E2BA980056CFC5 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2525E2BA980056CFC5 /* UIView+Ext.swift */; };
+		E0F9DA2825E2BE1B0056CFC5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2725E2BE1B0056CFC5 /* NetworkManager.swift */; };
+		E0F9DA2A25E2BF220056CFC5 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2925E2BF220056CFC5 /* ItemDetail.swift */; };
+		E0F9DA2C25E2BF980056CFC5 /* SSErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2B25E2BF980056CFC5 /* SSErrors.swift */; };
+		E0F9DA2E25E2BFCC0056CFC5 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2D25E2BFCC0056CFC5 /* Urls.swift */; };
+		E0F9DA3025E2C1030056CFC5 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2F25E2C1030056CFC5 /* UIViewController+Ext.swift */; };
+		E0F9DA3225E2C17F0056CFC5 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3125E2C17F0056CFC5 /* SpinnerView.swift */; };
+		E0F9DA3425E2C1F40056CFC5 /* ColourExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3325E2C1F40056CFC5 /* ColourExtentions.swift */; };
+		E0F9DA3625E2C22D0056CFC5 /* SSAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3525E2C22D0056CFC5 /* SSAlertVC.swift */; };
+		E0F9DA3825E2C2760056CFC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA3725E2C2760056CFC5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,15 @@
 		E0F9DA2125E2B8B50056CFC5 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		E0F9DA2325E2B9130056CFC5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E0F9DA2525E2BA980056CFC5 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		E0F9DA2725E2BE1B0056CFC5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E0F9DA2925E2BF220056CFC5 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		E0F9DA2B25E2BF980056CFC5 /* SSErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSErrors.swift; sourceTree = "<group>"; };
+		E0F9DA2D25E2BFCC0056CFC5 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		E0F9DA2F25E2C1030056CFC5 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		E0F9DA3125E2C17F0056CFC5 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		E0F9DA3325E2C1F40056CFC5 /* ColourExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourExtentions.swift; sourceTree = "<group>"; };
+		E0F9DA3525E2C22D0056CFC5 /* SSAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAlertVC.swift; sourceTree = "<group>"; };
+		E0F9DA3725E2C2760056CFC5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +172,8 @@
 			children = (
 				E0F9DA2125E2B8B50056CFC5 /* ItemCollectionViewCell.swift */,
 				E0F9DA2325E2B9130056CFC5 /* CardView.swift */,
+				E0F9DA3125E2C17F0056CFC5 /* SpinnerView.swift */,
+				E0F9DA3525E2C22D0056CFC5 /* SSAlertVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +189,7 @@
 		E0F9DA1625E2B5380056CFC5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0F9DA2925E2BF220056CFC5 /* ItemDetail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +197,7 @@
 		E0F9DA1725E2B5460056CFC5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E0F9DA2725E2BE1B0056CFC5 /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -193,6 +215,11 @@
 			isa = PBXGroup;
 			children = (
 				E0F9DA2525E2BA980056CFC5 /* UIView+Ext.swift */,
+				E0F9DA2B25E2BF980056CFC5 /* SSErrors.swift */,
+				E0F9DA2D25E2BFCC0056CFC5 /* Urls.swift */,
+				E0F9DA2F25E2C1030056CFC5 /* UIViewController+Ext.swift */,
+				E0F9DA3325E2C1F40056CFC5 /* ColourExtentions.swift */,
+				E0F9DA3725E2C2760056CFC5 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -336,9 +363,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F9DA2225E2B8B50056CFC5 /* ItemCollectionViewCell.swift in Sources */,
+				E0F9DA3225E2C17F0056CFC5 /* SpinnerView.swift in Sources */,
 				E0F9D9E025E2B0670056CFC5 /* AppDelegate.swift in Sources */,
+				E0F9DA3025E2C1030056CFC5 /* UIViewController+Ext.swift in Sources */,
 				E0F9D9EA25E2B0670056CFC5 /* saltside.xcdatamodeld in Sources */,
+				E0F9DA3625E2C22D0056CFC5 /* SSAlertVC.swift in Sources */,
 				E0F9DA1C25E2B6930056CFC5 /* ListViewController.swift in Sources */,
+				E0F9DA3825E2C2760056CFC5 /* Constants.swift in Sources */,
+				E0F9DA2E25E2BFCC0056CFC5 /* Urls.swift in Sources */,
+				E0F9DA2C25E2BF980056CFC5 /* SSErrors.swift in Sources */,
+				E0F9DA3425E2C1F40056CFC5 /* ColourExtentions.swift in Sources */,
+				E0F9DA2A25E2BF220056CFC5 /* ItemDetail.swift in Sources */,
+				E0F9DA2825E2BE1B0056CFC5 /* NetworkManager.swift in Sources */,
 				E0F9DA2625E2BA980056CFC5 /* UIView+Ext.swift in Sources */,
 				E0F9DA2425E2B9130056CFC5 /* CardView.swift in Sources */,
 				E0F9D9E225E2B0670056CFC5 /* SceneDelegate.swift in Sources */,

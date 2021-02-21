@@ -10,11 +10,16 @@ import UIKit
 
 class ItemCollectionViewCell: UICollectionViewCell {
     
-    //    var data:Exercise?{
-    //          didSet{
-    //
-    //          }
-    //      }
+    var itemDetails:ItemDetail?{
+        didSet{
+            if let title = itemDetails?.title{
+                titleLabel.text = title
+            }
+            if let discription = itemDetails?.description{
+                discriptionLabel.text = discription
+            }
+        }
+    }
     
     let outerView: CardView = {
         let view = CardView()
@@ -27,7 +32,7 @@ class ItemCollectionViewCell: UICollectionViewCell {
         let stack = UIStackView()
         stack.axis          = .horizontal
         stack.distribution  = .equalSpacing
-        stack.spacing = 5
+        stack.spacing = 12
         return stack
     }()
     

@@ -10,6 +10,8 @@ import UIKit
 
 class ListViewController: UIViewController {
  
+    var itemList = ItemDetailList()
+    
     let padding: CGFloat = 12
     
     private lazy var collectionView: UICollectionView = {
@@ -36,6 +38,25 @@ class ListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let dispatchGroup = DispatchGroup()
+
+        let dispatchQueue = DispatchQueue.global(qos: .background)
+
+        dispatchGroup.enter()
+        dispatchQueue.async {
+            self.getListOfItems()
+            print("List complete")
+            dispatchGroup.leave()
+        }
+
+        dispatchGroup.notify(queue: .main){
+            print("all opertaion done")
+        }
+
+        print("waiting For opertaion to complete")
+        
+        
         setConstatins()
         collectionView.register(ItemCollectionViewCell.self, forCellWithReuseIdentifier: cellId)
         collectionView.contentInset = UIEdgeInsets(top: 12, left: 12, bottom: 0, right: 12)
@@ -66,6 +87,39 @@ class ListViewController: UIViewController {
             collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
+    
+    
+    //MARK:SERVICE
+    
+    func getListOfItems() {
+        
+        DispatchQueue.main.async {
+         self.customActivityIndicatory(self.view,startAnimate: true)
+        }
+        
+        NetworkManager.shared.getItemList() { [weak self] (result) in
+            //#warning("Call Dismiss")
+            guard let self = self else { return } // weak returns a optional so we guard
+            DispatchQueue.main.async {
+             self.customActivityIndicatory(self.view,startAnimate: false)
+            }
+            
+            switch result {
+            case .success(let resp):
+                self.itemList = resp
+                dump(resp)
+                DispatchQueue.main.async {
+                    //reaload view
+                    self.collectionView.reloadData()
+                }
+                
+                
+            case .failure(let error):
+                self.presentGFAlertOnMainThread(title: "Bad Stuff Happened preg", message: error.rawValue, buttonTitle: "Ok")
+            }
+            
+        }
+    }
 
 }
 
@@ -75,12 +129,14 @@ class ListViewController: UIViewController {
 extension ListViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        return itemList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
             as! ItemCollectionViewCell
+        let itemDetails = itemList[indexPath.row]
+        cell.itemDetails = itemDetails
         return cell
     }
    
