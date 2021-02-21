@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		E0F9D9E025E2B0670056CFC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9D9DF25E2B0670056CFC5 /* AppDelegate.swift */; };
 		E0F9D9E225E2B0670056CFC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9D9E125E2B0670056CFC5 /* SceneDelegate.swift */; };
-		E0F9D9E425E2B0670056CFC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9D9E325E2B0670056CFC5 /* ViewController.swift */; };
 		E0F9D9E725E2B0670056CFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F9D9E525E2B0670056CFC5 /* Main.storyboard */; };
 		E0F9D9EA25E2B0670056CFC5 /* saltside.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0F9D9E825E2B0670056CFC5 /* saltside.xcdatamodeld */; };
 		E0F9D9EC25E2B06A0056CFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F9D9EB25E2B06A0056CFC5 /* Assets.xcassets */; };
 		E0F9D9EF25E2B06A0056CFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F9D9ED25E2B06A0056CFC5 /* LaunchScreen.storyboard */; };
 		E0F9D9FA25E2B06B0056CFC5 /* saltsideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9D9F925E2B06B0056CFC5 /* saltsideTests.swift */; };
 		E0F9DA0525E2B06B0056CFC5 /* saltsideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA0425E2B06B0056CFC5 /* saltsideUITests.swift */; };
+		E0F9DA1C25E2B6930056CFC5 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA1B25E2B6930056CFC5 /* ListViewController.swift */; };
+		E0F9DA2225E2B8B50056CFC5 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2125E2B8B50056CFC5 /* ItemCollectionViewCell.swift */; };
+		E0F9DA2425E2B9130056CFC5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2325E2B9130056CFC5 /* CardView.swift */; };
+		E0F9DA2625E2BA980056CFC5 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9DA2525E2BA980056CFC5 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		E0F9D9DC25E2B0670056CFC5 /* saltside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saltside.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F9D9DF25E2B0670056CFC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F9D9E125E2B0670056CFC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0F9D9E325E2B0670056CFC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0F9D9E625E2B0670056CFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0F9D9E925E2B0670056CFC5 /* saltside.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = saltside.xcdatamodel; sourceTree = "<group>"; };
 		E0F9D9EB25E2B06A0056CFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		E0F9DA0025E2B06B0056CFC5 /* saltsideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saltsideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F9DA0425E2B06B0056CFC5 /* saltsideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saltsideUITests.swift; sourceTree = "<group>"; };
 		E0F9DA0625E2B06B0056CFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F9DA1B25E2B6930056CFC5 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		E0F9DA2125E2B8B50056CFC5 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0F9DA2325E2B9130056CFC5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E0F9DA2525E2BA980056CFC5 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +107,15 @@
 		E0F9D9DE25E2B0670056CFC5 /* saltside */ = {
 			isa = PBXGroup;
 			children = (
-				E0F9D9DF25E2B0670056CFC5 /* AppDelegate.swift */,
-				E0F9D9E125E2B0670056CFC5 /* SceneDelegate.swift */,
-				E0F9D9E325E2B0670056CFC5 /* ViewController.swift */,
-				E0F9D9E525E2B0670056CFC5 /* Main.storyboard */,
+				E0F9DA1525E2B5240056CFC5 /* Controllers */,
+				E0F9DA1A25E2B58F0056CFC5 /* View Models */,
+				E0F9DA1625E2B5380056CFC5 /* Models */,
+				E0F9DA1425E2B4350056CFC5 /* View */,
+				E0F9DA1825E2B5710056CFC5 /* Storyboards */,
+				E0F9DA1725E2B5460056CFC5 /* Services */,
+				E0F9DA1925E2B5840056CFC5 /* Utilities */,
+				E0F9DA1225E2B3750056CFC5 /* Support */,
 				E0F9D9EB25E2B06A0056CFC5 /* Assets.xcassets */,
-				E0F9D9ED25E2B06A0056CFC5 /* LaunchScreen.storyboard */,
 				E0F9D9F025E2B06A0056CFC5 /* Info.plist */,
 				E0F9D9E825E2B0670056CFC5 /* saltside.xcdatamodeld */,
 			);
@@ -129,6 +138,70 @@
 				E0F9DA0625E2B06B0056CFC5 /* Info.plist */,
 			);
 			path = saltsideUITests;
+			sourceTree = "<group>";
+		};
+		E0F9DA1225E2B3750056CFC5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9D9DF25E2B0670056CFC5 /* AppDelegate.swift */,
+				E0F9D9E125E2B0670056CFC5 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E0F9DA1425E2B4350056CFC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9DA2125E2B8B50056CFC5 /* ItemCollectionViewCell.swift */,
+				E0F9DA2325E2B9130056CFC5 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0F9DA1525E2B5240056CFC5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9DA1B25E2B6930056CFC5 /* ListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E0F9DA1625E2B5380056CFC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E0F9DA1725E2B5460056CFC5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E0F9DA1825E2B5710056CFC5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9D9E525E2B0670056CFC5 /* Main.storyboard */,
+				E0F9D9ED25E2B06A0056CFC5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E0F9DA1925E2B5840056CFC5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9DA2525E2BA980056CFC5 /* UIView+Ext.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E0F9DA1A25E2B58F0056CFC5 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F9D9E425E2B0670056CFC5 /* ViewController.swift in Sources */,
+				E0F9DA2225E2B8B50056CFC5 /* ItemCollectionViewCell.swift in Sources */,
 				E0F9D9E025E2B0670056CFC5 /* AppDelegate.swift in Sources */,
 				E0F9D9EA25E2B0670056CFC5 /* saltside.xcdatamodeld in Sources */,
+				E0F9DA1C25E2B6930056CFC5 /* ListViewController.swift in Sources */,
+				E0F9DA2625E2BA980056CFC5 /* UIView+Ext.swift in Sources */,
+				E0F9DA2425E2B9130056CFC5 /* CardView.swift in Sources */,
 				E0F9D9E225E2B0670056CFC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
